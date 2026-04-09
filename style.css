@@ -1,14 +1,39 @@
-body{
+body {
     display: grid;
+    background: radial-gradient(circle, #ff7b00, #ff3c00, #000);
+    color: #fff;
+    font-family: 'Bamgers', cursive;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 2.8vw;
     justify-self: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+img {
+    width: 260px;
+    border-radius: 12px;
+    margin-top: 15px;
+    box-shadow:
+        0 0 20px #ffae00,
+        0 0 40px #ff6a00;
+    transition: 0.3s;
+
+}
+
+img:hover {
+    transform: scale(1.08);
 }
 
 .descricao,
@@ -16,17 +41,17 @@ body{
     padding: 25px;
     display: grid;
     border: 2px solid #000000;
-    border-radius: 8px;
+    border-radius: 12px;
     width: 350px;
-    background-color: rgba(245, 245, 220, 0.685)
+    background-color: rgba(245, 245, 220, 0.685);
 }
 
 .habilidades {
     box-sizing: border-box;
 }
 
-.conteudo{
+.conteudo {
     display: flex;
     gap: 1.8vw;
-    margin-top: 2.2vw;
+    margin-top: 2vw;
 }
